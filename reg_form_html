@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" type="text/css" href="/home/ananya/Documents/ananya/web_dev/1.css">
+	<title></title>
+</head>
+<body>
+	<big><big><h1>REGESTARTION FORM</h1></big></big>
+  <form>
+    
+
+    <div class="container" >
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+	  <hr>
+	  
+	   
+	   <label for="collage"><b>Collage</b></label>
+	   <select id="collage" name="country" value="yo">
+	   	<hr>
+	   	<option value="mit">MIT</option>
+	    <option value="mit">KMC</option>
+	    <option value="mit">SOC</option>
+	    <option value="other">Other</option>
+	   </select>
+	  <hr>
+      <label for="sem"><b>Registration number</b></label>
+      <input type="text" placeholder="Enter Registration number" name="reg" required>
+      <hr>
+      <label for="sem"><b>Semester</b></label>
+      <input type="text" placeholder="Enter Semester" name="sem" required>
+	  <hr>
+	  <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+	  <hr>
+	  <label for="phone"><b>Phone no</b></label>
+      <input type="text" placeholder="Enter Phone No" name="pno" required>
+	  <hr>
+	  <label for="gender"><b>Gender</b></label>
+      <input type="text" placeholder="Enter Gender" name="gen" required>
+	  <hr>
+	  <button type="submit">Register</button>
+      
+    </div>
+  </form>
+
+
+
+	
+
+
+</body>
+</html>
